@@ -1,0 +1,2 @@
+  287  singularity build --sandbox ds-cli Singularity 
+  288  singularity shell --writable ds-cli 
