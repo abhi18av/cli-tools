@@ -1,8 +1,8 @@
-Bootstrap: docker
-From: centos
+#Bootstrap: docker
+#From: centos
 
-#Bootstrap: shub
-#From: singularityhub/centos
+Bootstrap: shub
+From: singularityhub/centos
 
 %labels
 AUTHOR abhi18av
@@ -29,7 +29,7 @@ echo "Upgrading the centos7 base image"
 
 
 # Install it directly
-#yum install https://github.com/PowerShell/PowerShell/releases/download/v6.0.2/powershell-6.0.2-1.rhel.7.x86_64.rpm
+yum install https://github.com/PowerShell/PowerShell/releases/download/v6.0.2/powershell-6.0.2-1.rhel.7.x86_64.rpm
 
 # Register the Microsoft RedHat repository
 # curl https://packages.microsoft.com/config/rhel/7/prod.repo | sudo tee /etc/yum.repos.d/microsoft.repo
