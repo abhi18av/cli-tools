@@ -1,0 +1,16 @@
+Bootstrap: docker
+From: datascienceworkshops/data-science-at-the-command-line
+
+#Bootstrap: shub
+#From: singularityhub/centos
+
+%labels
+AUTHOR abhi18av
+
+%help
+The cli-tools for day-to-day life of Data Scientist.
+
+
+%runscript 
+
+%post
