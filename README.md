@@ -7,5 +7,8 @@ Singularity and Docker containers for day to day life
 
 https://hub.docker.com/r/abhi18av/cli-tools/
 
+Install Datalad
+
+https://www.singularity-hub.org/collections/667
 
 
