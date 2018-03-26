@@ -1,2 +1,3 @@
 *.img
 *-tools
+singularity-vm/.vagrant/
