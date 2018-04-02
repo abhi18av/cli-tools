@@ -1,3 +1,4 @@
 *.img
 *-tools
 singularity-vm/.vagrant/
+cli-tools.img
